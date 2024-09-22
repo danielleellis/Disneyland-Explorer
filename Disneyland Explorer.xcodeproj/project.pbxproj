@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EB9E16C12C9FE3300058F4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9E16A42C9FE32F0058F4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9E16AB2C9FE32F0058F4C0;
+			remoteInfo = "Disneyland Explorer";
+		};
+		EB9E16CB2C9FE3300058F4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9E16A42C9FE32F0058F4C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9E16AB2C9FE32F0058F4C0;
+			remoteInfo = "Disneyland Explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9E16AC2C9FE32F0058F4C0 /* Disneyland Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disneyland Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9E16C02C9FE3300058F4C0 /* Disneyland ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disneyland ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9E16CA2C9FE3300058F4C0 /* Disneyland ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disneyland ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB9E16D22C9FE3300058F4C0 /* Exceptions for "Disneyland Explorer" folder in "Disneyland Explorer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EB9E16AB2C9FE32F0058F4C0 /* Disneyland Explorer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB9E16AE2C9FE32F0058F4C0 /* Disneyland Explorer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EB9E16D22C9FE3300058F4C0 /* Exceptions for "Disneyland Explorer" folder in "Disneyland Explorer" target */,
+			);
+			path = "Disneyland Explorer";
+			sourceTree = "<group>";
+		};
+		EB9E16C32C9FE3300058F4C0 /* Disneyland ExplorerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Disneyland ExplorerTests";
+			sourceTree = "<group>";
+		};
+		EB9E16CD2C9FE3300058F4C0 /* Disneyland ExplorerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Disneyland ExplorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9E16A92C9FE32F0058F4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9E16BD2C9FE3300058F4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9E16C72C9FE3300058F4C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9E16A32C9FE32F0058F4C0 = {
+			isa = PBXGroup;
+			children = (
+				EB9E16AE2C9FE32F0058F4C0 /* Disneyland Explorer */,
+				EB9E16C32C9FE3300058F4C0 /* Disneyland ExplorerTests */,
+				EB9E16CD2C9FE3300058F4C0 /* Disneyland ExplorerUITests */,
+				EB9E16AD2C9FE32F0058F4C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9E16AD2C9FE32F0058F4C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9E16AC2C9FE32F0058F4C0 /* Disneyland Explorer.app */,
+				EB9E16C02C9FE3300058F4C0 /* Disneyland ExplorerTests.xctest */,
+				EB9E16CA2C9FE3300058F4C0 /* Disneyland ExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9E16AB2C9FE32F0058F4C0 /* Disneyland Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9E16D32C9FE3300058F4C0 /* Build configuration list for PBXNativeTarget "Disneyland Explorer" */;
+			buildPhases = (
+				EB9E16A82C9FE32F0058F4C0 /* Sources */,
+				EB9E16A92C9FE32F0058F4C0 /* Frameworks */,
+				EB9E16AA2C9FE32F0058F4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB9E16AE2C9FE32F0058F4C0 /* Disneyland Explorer */,
+			);
+			name = "Disneyland Explorer";
+			packageProductDependencies = (
+			);
+			productName = "Disneyland Explorer";
+			productReference = EB9E16AC2C9FE32F0058F4C0 /* Disneyland Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9E16BF2C9FE3300058F4C0 /* Disneyland ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9E16D82C9FE3300058F4C0 /* Build configuration list for PBXNativeTarget "Disneyland ExplorerTests" */;
+			buildPhases = (
+				EB9E16BC2C9FE3300058F4C0 /* Sources */,
+				EB9E16BD2C9FE3300058F4C0 /* Frameworks */,
+				EB9E16BE2C9FE3300058F4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9E16C22C9FE3300058F4C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB9E16C32C9FE3300058F4C0 /* Disneyland ExplorerTests */,
+			);
+			name = "Disneyland ExplorerTests";
+			packageProductDependencies = (
+			);
+			productName = "Disneyland ExplorerTests";
+			productReference = EB9E16C02C9FE3300058F4C0 /* Disneyland ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB9E16C92C9FE3300058F4C0 /* Disneyland ExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9E16DB2C9FE3300058F4C0 /* Build configuration list for PBXNativeTarget "Disneyland ExplorerUITests" */;
+			buildPhases = (
+				EB9E16C62C9FE3300058F4C0 /* Sources */,
+				EB9E16C72C9FE3300058F4C0 /* Frameworks */,
+				EB9E16C82C9FE3300058F4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9E16CC2C9FE3300058F4C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB9E16CD2C9FE3300058F4C0 /* Disneyland ExplorerUITests */,
+			);
+			name = "Disneyland ExplorerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Disneyland ExplorerUITests";
+			productReference = EB9E16CA2C9FE3300058F4C0 /* Disneyland ExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9E16A42C9FE32F0058F4C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EB9E16AB2C9FE32F0058F4C0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EB9E16BF2C9FE3300058F4C0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB9E16AB2C9FE32F0058F4C0;
+					};
+					EB9E16C92C9FE3300058F4C0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB9E16AB2C9FE32F0058F4C0;
+					};
+				};
+			};
+			buildConfigurationList = EB9E16A72C9FE32F0058F4C0 /* Build configuration list for PBXProject "Disneyland Explorer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9E16A32C9FE32F0058F4C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB9E16AD2C9FE32F0058F4C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9E16AB2C9FE32F0058F4C0 /* Disneyland Explorer */,
+				EB9E16BF2C9FE3300058F4C0 /* Disneyland ExplorerTests */,
+				EB9E16C92C9FE3300058F4C0 /* Disneyland ExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9E16AA2C9FE32F0058F4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9E16BE2C9FE3300058F4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9E16C82C9FE3300058F4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9E16A82C9FE32F0058F4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9E16BC2C9FE3300058F4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9E16C62C9FE3300058F4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9E16C22C9FE3300058F4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9E16AB2C9FE32F0058F4C0 /* Disneyland Explorer */;
+			targetProxy = EB9E16C12C9FE3300058F4C0 /* PBXContainerItemProxy */;
+		};
+		EB9E16CC2C9FE3300058F4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9E16AB2C9FE32F0058F4C0 /* Disneyland Explorer */;
+			targetProxy = EB9E16CB2C9FE3300058F4C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB9E16D42C9FE3300058F4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Disneyland Explorer/Disneyland_Explorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disneyland Explorer/Preview Content\"";
+				DEVELOPMENT_TEAM = S6JATSJV43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Disneyland Explorer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asu.Disneyland-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB9E16D52C9FE3300058F4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Disneyland Explorer/Disneyland_Explorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Disneyland Explorer/Preview Content\"";
+				DEVELOPMENT_TEAM = S6JATSJV43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Disneyland Explorer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asu.Disneyland-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB9E16D62C9FE3300058F4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9E16D72C9FE3300058F4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9E16D92C9FE3300058F4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6JATSJV43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asu.Disneyland-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disneyland Explorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disneyland Explorer";
+			};
+			name = Debug;
+		};
+		EB9E16DA2C9FE3300058F4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6JATSJV43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asu.Disneyland-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disneyland Explorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Disneyland Explorer";
+			};
+			name = Release;
+		};
+		EB9E16DC2C9FE3300058F4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6JATSJV43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asu.Disneyland-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disneyland Explorer";
+			};
+			name = Debug;
+		};
+		EB9E16DD2C9FE3300058F4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6JATSJV43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asu.Disneyland-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disneyland Explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9E16A72C9FE32F0058F4C0 /* Build configuration list for PBXProject "Disneyland Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9E16D62C9FE3300058F4C0 /* Debug */,
+				EB9E16D72C9FE3300058F4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9E16D32C9FE3300058F4C0 /* Build configuration list for PBXNativeTarget "Disneyland Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9E16D42C9FE3300058F4C0 /* Debug */,
+				EB9E16D52C9FE3300058F4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9E16D82C9FE3300058F4C0 /* Build configuration list for PBXNativeTarget "Disneyland ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9E16D92C9FE3300058F4C0 /* Debug */,
+				EB9E16DA2C9FE3300058F4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9E16DB2C9FE3300058F4C0 /* Build configuration list for PBXNativeTarget "Disneyland ExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9E16DC2C9FE3300058F4C0 /* Debug */,
+				EB9E16DD2C9FE3300058F4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9E16A42C9FE32F0058F4C0 /* Project object */;
+}

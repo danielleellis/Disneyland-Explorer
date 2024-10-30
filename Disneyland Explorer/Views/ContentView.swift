@@ -5,8 +5,6 @@
 //  Created by Danielle Ellis on 9/21/24.
 //
 
-// Views/ContentView.swift
-
 import SwiftUI
 import SwiftData
 import MapKit

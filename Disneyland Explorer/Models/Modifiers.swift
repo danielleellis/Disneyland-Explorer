@@ -11,12 +11,11 @@ struct GradientBackground: ViewModifier {
     var colors: [Color] = [Color.blue, Color.purple] 
     
     func body(content: Content) -> some View {
-        // ZStack to ensure gradient background covers entire area
         ZStack {
             LinearGradient(gradient: Gradient(colors: colors),
                            startPoint: .top,
                            endPoint: .bottom)
-                .ignoresSafeArea() // Cover the entire area with gradient
+                .ignoresSafeArea() // cover entire area with gradient background
             content
         }
     }
